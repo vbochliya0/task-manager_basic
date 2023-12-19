@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="sidevala">
+            <div id="intrect">
+                <button class="tbtn" id="deleteall" onclick="deleteallfn()">delete all</button>
+                <button class="tbtn" id="newtask" onclick="newtaskfn()">new Task</button>
+            </div>
+
+
+        </div>
+        <div id="showvala">
+            <div id="taskbuttons">
+                <button class="distaskbtns" id="distaskbtn">Tasks</button>
+                <button class="distaskbtns" id="distaskbtndone">Completed</button>
+                <button class="distaskbtns" id="distaskbtndel">deleted</button>
+            </div>
+            <div id="distaskbig">Select task to see details</div>
+        </div>
+    </div>
+
+
+
+    <script src="task.js"></script>
+</body>
+
+</html>
